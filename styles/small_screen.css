@@ -1,0 +1,28 @@
+@media only screen and (max-width: 763px) {
+
+  .navbar__div {
+    ul li {
+      display: none;
+    }
+    img {
+      display: inline !important;
+    }
+  }
+
+  header h1  {
+    font-size: 1.5rem;
+  }
+
+  .features__section, .cards__container {
+    flex-direction: column;
+  }
+
+  .testimonials__section{
+    width: 90% !important;
+  }
+
+  .contact__section form {
+    width: 70% !important;
+  }
+
+}
